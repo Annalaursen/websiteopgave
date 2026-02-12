@@ -1,0 +1,86 @@
+@media (width> 800px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+
+  .billede1 {
+    grid-column: 2;
+    margin: 1rem;
+    max-width: 90%;
+  }
+
+  .order {
+    order: 2;
+  }
+
+  .liste {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    margin: 1rem;
+  }
+
+  .grid_5-3 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 1em;
+  }
+
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1em;
+  }
+
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1em;
+  }
+
+  .galleritekst {
+    max-width: 65ch;
+    grid-column: 2;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+  }
+
+  .grid_1-1-1-1 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
+
+  .galleribillede1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .galleribillede4 {
+    grid-column: span 2;
+  }
+
+  .galleribillede6 {
+    grid-column: span 3;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2em;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
